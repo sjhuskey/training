@@ -107,9 +107,15 @@
             <placeName ref="https://pleiades.stoa.org/places/465875">Camicos</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/981549">Siciliae</placeName>, ex quo urbs ca<lb/>micos dividit
             <app>
-              <lem wit="VC" xml:id="lem-agringentinus">Agr<del rend="expunction">a</del>
-                <add place="above">in</add>g<del rend="expunction">a</del>
-                <add place="above">e</add>ntinus</lem>
+              <lem wit="#VC" xml:id="lem-agringentinus">Agringentinus</lem>
+              <witDetail wit="#VC" target="#lem-agringentinus">The second and third
+                <hi rend="italic">a</hi>
+                in
+                <foreign xml:lang="lat">Agragantinos</foreign>
+                have been deleted by expunction and replaced with
+                <hi rend="italic">in</hi>
+                and
+                <hi rend="italic">e</hi>, respectively.</witDetail>
               <rdg wit="#VP">Agragantinos</rdg>
             </app>.</p>
 
