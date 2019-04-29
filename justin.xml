@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title of Work</title>
+        <author>Name of Author</author>
+        <editor>Name of Editor</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>First Edition</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Society for Classical Studies</publisher>
+        <distributor>Digital Latin Library</distributor>
+        <date>2016</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"> Distributed under a
+            Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Library of Digital Latin Texts</title>
+        <biblScope unit="vol">1</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front xml:id="front">
+      <div type="section" xml:id="preface">
+        <head>Preface</head>
+        <p>General introductory remarks about the edition.</p>
+        <div type="section" xml:id="preface-section-1">
+          <p><ref target="url">My pretty picture</ref></p>
+          <!--This is a section within the preface. Editors should use
+          sections (distinguished by <div>) to organize the content of the edition's preface.-->
+        </div>
+      </div>
+      <div type="section" xml:id="bibliography">
+        <head>Bibliography</head>
+        <!--This is where the bibliography for the edition is listed, including manuscript
+        descriptions, and lists of early editions, modern editions, and other sources cited
+        in the current edition. For more information on encoding the items in the bibliography
+        see section 3 Bibliography below. -->
+        <div type="section" xml:id="bibliography-witnesses">
+  <listWit>
+  <witness xml:id="V">
+  <abbr type="siglum">V</abbr>
+  Codex Vaticanus Latinus 4929 ff. 188r–195r (<ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.4929"/>, accessed on 2019-03-17).</witness>
+  <witness xml:id="V1">
+  <abbr type="siglum">V<hi rend="superscript">1</hi>
+  </abbr>
+  Corrections made by the original manuscript copyist.</witness>
+  <witness xml:id="V2">
+  <abbr type="siglum">V<hi rend="superscript">2</hi>
+  </abbr>
+  Corrections made by a hand contemporary to the original manuscript copyist.</witness>
+  <witness xml:id="V3">
+  <abbr type="siglum">V<hi rend="superscript">3</hi>
+  </abbr>
+  Corrections made by a hand at the end of the 11<hi rend="superscript">th</hi>
+  century or the beginning of the 12<hi rend="superscript">th</hi>
+  century.</witness>
+  <witness xml:id="V4">
+  <abbr type="siglum">V<hi rend="superscript">4</hi>
+  </abbr>
+  Corrections made by a hand a little after V<hi rend="superscript">3</hi>.</witness>
+  <witness xml:id="VC">
+  <abbr type="siglum">V<hi rend="superscript">c</hi>
+  </abbr>
+  Corrections made by a hand that cannot be identified with certainty (i.e., it could be any of those already listed).</witness>
+  <witness xml:id="VP">
+  <abbr type="siglum">V<hi rend="superscript">p</hi>
+  </abbr>
+  A reading prior to correction.</witness>
+  </listWit>
+  </div>
+      </div>
+    </front>
+    <body>
+      <div type="edition" xml:id="edition-text">
+        <div type="textpart" n="1" xml:id="part1">
+                      <head>Flumina</head>
+            <p xml:id="spercheios">
+              <placeName ref="https://pleiades.stoa.org/places/541112">Spercheios</placeName>
+              <placeName ref="https://pleiades.stoa.org/places/1332">Thessaliae</placeName>, in maliacum
+              <lb/> mare decurrens usque ad ora
+              <lb/><placeName>Locris</placeName></p>
+            <p xml:id="silarus">
+              <placeName ref="https://pleiades.stoa.org/places/442795">Silarus</placeName>,
+              <placeName ref="https://pleiades.stoa.org/places/442639">Lucaniae</placeName>.</p>
+            <p xml:id="selinus">
+              Selinus, Messaliorum, a quo civi<lb/>
+              tas Selinus dicta, quod apiu<lb/>
+              ibi plurimum nascitur</p>
+            <p xml:id="sagaris">
+                Sagaris, <placeName ref="https://pleiades.stoa.org/places/609502">Phrygiae</placeName>,ad castellum
+                <lb/> bere Cynthium.</p>
+            <p xml:id="sebethos">
+                <placeName ref="https://pleiades.stoa.org/places/433113">Sebethos</placeName>,
+                neapoli, in <placeName ref="https://pleiades.stoa.org/places/432742">Campania</placeName>.</p>
+              <p xml:id="sarnus">
+                <placeName ref="https://pleiades.stoa.org/places/433102">Sarnus</placeName>
+                <placeName ref="https://pleiades.stoa.org/places/432985">Nuceriae</placeName>,
+                ex sarone fluvio
+                Hadriae, per <placeName ref="https://pleiades.stoa.org/places/432742">Campania</placeName> decurrens </p>
+              <p xml:id="symaethos">
+                <placeName ref="https://pleiades.stoa.org/places/462502">Symaethos</placeName>,
+                <placeName ref="https://pleiades.stoa.org/places/462492">Siciliae</placeName>,
+                vicinus palicis. </p>
+              <p xml:id="siler">
+                Siler, in <placeName ref="https://pleiades.stoa.org/places/442639">Lucania</placeName>
+                oppido alburno. </p>
+              <p xml:id="sinocoris">
+                Sinocoris, <placeName ref="https://pleiades.stoa.org/places/1027">Hispaniae</placeName>
+                iuxta <placeName ref="https://pleiades.stoa.org/places/246431">Ilerda</placeName>. </p>
+              <p xml:id="saron">
+                Saron, Hadriae </p>
+              <p xml:id="tigris">
+                <placeName ref="https://pleiades.stoa.org/places/912964">Tigris</placeName>,
+                <placeName ref="https://pleiades.stoa.org/places/952097">Parthiae</placeName>,
+                qui sub terra <lb/>
+                means, Rubro mari miscetur.</p>
+              <p xml:id="tauromenius">
+                Tauromenius, inter <placeName ref="https://pleiades.stoa.org/places/462503">Syracusas</placeName> et
+                <lb/> <placeName ref="https://pleiades.stoa.org/places/462538">Messana</placeName>
+                . A quo oppidum tauro <lb/>
+                menium, quod oppidum
+                  <app>
+                    <lem wit="#V2" xml:id="lem-eusebonchoia-dr">eusebonchoia</lem>
+                    <rdg><add place="margin">eusebonchora</add></rdg>
+                  </app>
+                a dicitur. </p>
+              <p xml:id="tanager">
+                <placeName ref="https://pleiades.stoa.org/places/442809">Tanager</placeName>,
+                <placeName ref="https://pleiades.stoa.org/places/442639">Lucaniae</placeName>.
+              </p>
+
+          <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
+        </div>
+        <div type="textpart" n="2" xml:id="part2">
+          <head>Title of Second Part</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="bibliography"/>
+      </div>
+    </body>
+    <back>
+      <!--The content of the back matter will be determined in consultation between
+      the editor and the staff of the DLL. Because LDLT editions are encoded, the
+      matter traditionally found in the back of a printed critical edition may be
+      generated by applications instead of having to be entered manually.
+      Nevertheless, there is space here for notes, indices, and other kinds of
+      information.-->
+    </back>
+  </text>
+</TEI>

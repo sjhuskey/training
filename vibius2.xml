@@ -119,9 +119,57 @@
               <rdg wit="#VP">Agragantinos</rdg>
             </app>.</p>
 
+          <p xml:id="taurominos">
+            Taurominus, inter Syracusas et
+            <lb/>Messanam. A quo oppidum Tauro
+            <lb/>menium. Quod oppidum
+            <app>
+              <lem wit="#V2">
+                <add place="margin">eusebonchora</add>
+              </lem>
+              <rdg wit="#V">eusebonchora dicitur</rdg>
+            </app>
+
+          </p>
+
+          <p xml:id="arentinus">
+            <app>
+              <lem>Arentinus, in quo civitas Praeneste</lem>
+              <rdg wit="#V2">
+                <add place="margin">Arentinus ubi
+                  <lb/>praenes<lb/>te</add>
+              </rdg>
+            </app>.</p>
+
+          <p xml:id="esquilinus">Esquilinus, Romae, unus
+            <app>
+              <lem>e septem</lem>
+              <rdg wit="#V2">
+                <add place="margin">esept</add>
+              </rdg>
+            </app>
+            <lb/>montibus.</p>
+
+          <p xml:id="aganippe">
+            <app>
+              <lem>Aganippe</lem>
+              <rdg wit="#V2">
+                <add place="margin">Enippe</add>
+              </rdg>
+            </app>, Boeotiae, ante enippe
+            <lb/>dictus.</p>
+
+          <p xml:id="spandaeus">Spandaeus, in insula
+            <placeName ref="https://pleiades.stoa.org/places/599581">Coa</placeName>
+            <placeName ref="https://pleiades.stoa.org/places/981509">Asiae</placeName>.</p>
+
+          <p xml:id="salmacis">Salmacis,
+            <placeName ref="https://pleiades.stoa.org/places/991381">Cariae</placeName>, ex quo bibit
+            <lb/>mollescit. Id est obscenus fit.</p>
+
           <p xml:id="cinybs">
-            <placeName ref="https://pleiades.stoa.org/places/344414">Cinybs</placeName>,
-            <placeName ref="https://pleiades.stoa.org/places/29475">Arabiae</placeName>, in quo plurima
+            Cinybs, Arabiae, in quo plurima
+            <!-- Type note to self. -->
             <lb/>genera gemmarum inveniuntur
             <lb/>et camelis deportantur in oppidum
             <lb/>
@@ -131,7 +179,6 @@
             in the margin next to
             <foreign xml:lang="lat">plurima</foreign>
           </note>
-          <p><hi rend="italic"></hi></p>
         </div>
         <!-- End of section "Flumina" -->
 

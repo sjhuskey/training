@@ -13,9 +13,9 @@
         <edition>First Edition</edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Society for Classical Studies</publisher>
-        <distributor>Digital Latin Library</distributor>
-        <date>2016</date>
+        <publisher>---</publisher>
+        <distributor>---</distributor>
+        <date>---</date>
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 International License.</licence>
         </availability>
@@ -31,13 +31,6 @@
   </teiHeader>
   <text>
     <front xml:id="front">
-      <div type="section" xml:id="preface">
-        <head>Preface</head>
-        <p>General introductory remarks about the edition.</p>
-        <div type="section" xml:id="preface-section-1">
-          <!-- This is a subsection within the preface. Editors should use subsections (with <div>) to organize the content of the edition's preface. For example, there might be a subsection devoted to the description of manuscripts. -->
-        </div>
-      </div>
       <div type="section" xml:id="bibliography">
         <head>Bibliography</head>
         <!-- This is where the bibliography for the edition is listed. -->
@@ -73,66 +66,49 @@
               </abbr>
               A reading prior to correction.</witness>
           </listWit>
-
         </div>
-        <div type="section" xml:id="bibliography-early-editions">
-          <head>Early Editions</head>
-          <!-- Bibliographical details for early editions or editiones vetustiores, using <gi>listWit</gi> with <att>type</att>="editions-witnesses". -->
-        </div>
-        <div type="section" xml:id="bibliography-modern-editions">
-          <head>Modern Editions</head>
-          <!-- Bibliographical details for modern editions and commentaries, using <gi>listBibl</gi> with <att>type</att>="editions-sources". -->
-        </div>
-        <div type="section" xml:id="bibliography-secondary-sources">
-          <head>Secondary Sources</head>
-          <!-- Bibliographical details for articles, notes, books, and other sources, using <gi>listBibl</gi> with <att>type</att>="secondary-sources". -->
-        </div>
-        <div type="section" xml:id="bibliography-scholars">
-          <head>List of Scholars Referred to By Name</head>
-          <!-- A list of the names of individual scholars referred to by name in the apparatus, if they are not listed elsewhere in the bibliography. -->
-        </div>
-      </div>
-      <div type="section" xml:id="conspectus">
-        <head>Conspectus</head>
-        <!-- A key to the special sigla and abbreviations used in the edition (drawn from the <att>xml:id</att>'s assigned to the various items in the bibliography). -->
       </div>
     </front>
     <body>
       <div type="edition" xml:id="edition-text">
-
         <!-- Beginning of section "Flumina" -->
         <div type="textpart" n="1" xml:id="part1">
           <head>Flumina</head>
-          <p xml:id="camicos">
-            <placeName ref="https://pleiades.stoa.org/places/465875">Camicos</placeName>,
-            <placeName ref="https://pleiades.stoa.org/places/981549">Siciliae</placeName>, ex quo urbs ca<lb/>micos dividit
-            <app>
-              <lem wit="#VC" xml:id="lem-agringentinus">Agringentinus</lem>
-              <witDetail wit="#VC" target="#lem-agringentinus">The second and third
-                <hi rend="italic">a</hi>
-                in
-                <foreign xml:lang="lat">Agragantinos</foreign>
-                have been deleted by expunction and replaced with
-                <hi rend="italic">in</hi>
-                and
-                <hi rend="italic">e</hi>, respectively, above the line.</witDetail>
-              <rdg wit="#VP">Agragantinos</rdg>
-            </app>.</p>
 
-          <p xml:id="cinybs">
-            <placeName ref="https://pleiades.stoa.org/places/344414">Cinybs</placeName>,
-            <placeName ref="https://pleiades.stoa.org/places/29475">Arabiae</placeName>, in quo plurima
-            <lb/>genera gemmarum inveniuntur
-            <lb/>et camelis deportantur in oppidum
+          <p xml:id="crathys">
+            <placeName ref="https://pleiades.stoa.org/places/452315">Crathys</placeName>, confinis
+            <placeName ref="https://pleiades.stoa.org/places/452458">Sybari</placeName>. Capillos
+            <lb/>facit aurei coloris</p>
+          <note target="#crathys">A note in the margin has this text: capillos
+            <lb/>aurei
+            <lb/>colo<lb/>ris.</note>
+          <p xml:id="clitumnus">
+            <placeName ref="https://pleiades.stoa.org/places/413091">Clitumnus</placeName>,
+            <placeName ref="https://pleiades.stoa.org/places/413360">Umbriae</placeName>, ubi Iuppiter
+            <lb/>eodem nomine est.</p>
+
+          <p xml:id="hypanis">
+            <placeName ref="https://pleiades.stoa.org/places/825273">Hypanis</placeName>,
+            <placeName ref="https://pleiades.stoa.org/places/1273">Scythiae</placeName>, qui ut ait Gal<lb/>lus uno tellures
+            <app>
+              <lem wit="#VC">dividi<add place="inline">t am</add>ne duas</lem>
+              <rdg wit="#V">dividi neduas</rdg>
+            </app>
             <lb/>
-            <sic>Thybrestrum</sic>.</p>
-          <note target="#cinybs">Abbreviation for
-            <foreign xml:lang="lat">nota</foreign>
-            in the margin next to
-            <foreign xml:lang="lat">plurima</foreign>
+            <placeName ref="https://pleiades.stoa.org/places/981509">Asiam</placeName>
+            enim ab
+            <placeName ref="https://pleiades.stoa.org/places/991376">Europa</placeName>
+            <app>
+              <lem wit="#VC"><add place="inline">se</add>parat</lem>
+              <rdg wit="#V">parat</rdg>
+            </app>
+          </p>
+          <note target="#hypanis">A later hand has written in the margin
+            <foreign xml:lang="la">Galli verba</foreign>
           </note>
-          <p><hi rend="italic"></hi></p>
+
         </div>
+
         <!-- End of section "Flumina" -->
 
         <!-- Beginning of section "Fontes" -->
