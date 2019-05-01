@@ -71,6 +71,13 @@
               </abbr>
               A reading prior to correction.</witness>
           </listWit>
+          <listBibl>
+            <bibl xml:id="Gelsomino">
+              <editor>Gelsomino, Remus</editor>.
+              <title>Vibius Sequester</title>.
+              <pubPlace>Lipsiae</pubPlace>:
+              <publisher>in aedibus B.G. Teubneri</publisher>. 1967.</bibl>
+          </listBibl>
         </div>
       </div>
     </front>
@@ -81,20 +88,20 @@
           <head>Flumina</head>
 
           <p xml:id="crathys">
-            <placeName ref="https://pleiades.stoa.org/places/452315">Crathys</placeName>, confinis
+            <app><lem wit="#V"><placeName ref="https://pleiades.stoa.org/places/452315">Crathys</placeName>, confinis
             <placeName ref="https://pleiades.stoa.org/places/452458">Sybari</placeName>. Capillos
-            <lb/>facit aurei coloris</p>
-          <note target="#crathys">A note in the margin has this text: capillos
-            <lb/>aurei
-            <lb/>colo<lb/>ris.</note>
+            <lb break="no"/>facit aurei coloris</lem><note target="#crathys">A note in the margin has this text: <lb/>capillos
+              <lb/>aurei
+              <lb/>colo<lb/>ris.</note></app></p>
+
           <p xml:id="clitumnus">
             <placeName ref="https://pleiades.stoa.org/places/413091">Clitumnus</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/413360">Umbriae</placeName>, ubi Iuppiter
-            <lb/>eodem nomine est.</p>
+            <lb break="no"/>eodem nomine est.</p>
 
           <p xml:id="hypanis">
             <placeName ref="https://pleiades.stoa.org/places/825273">Hypanis</placeName>,
-            <placeName ref="https://pleiades.stoa.org/places/1273">Scythiae</placeName>, qui ut ait Gal<lb/>lus uno tellures
+            <placeName ref="https://pleiades.stoa.org/places/1273">Scythiae</placeName>, qui ut ait Gal<lb break="no"/>lus uno tellures
             <app>
               <lem wit="#VC">dividi<add place="inline">t am</add>ne duas</lem>
               <rdg wit="#V">dividi neduas</rdg>
@@ -107,11 +114,12 @@
               <lem wit="#VC">
                 <add place="inline">se</add>parat</lem>
               <rdg wit="#V">parat</rdg>
+              <note target="#hypanis">A later hand has written in the margin
+                <foreign xml:lang="la">Galli verba</foreign>
+              </note>
             </app>
           </p>
-          <note target="#hypanis">A later hand has written in the margin
-            <foreign xml:lang="la">Galli verba</foreign>
-          </note>
+
 
         </div>
 
