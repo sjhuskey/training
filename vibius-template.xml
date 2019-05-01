@@ -175,8 +175,8 @@
                 <ref target="#V1">V1</ref>,</witDetail>
             </app>.</p>
           <p xml:id="othrys"><app><lem wit="#V">Othrys, Thraciae</lem>
-            <witDetail target="#othrys" wit="#V">This entry was written at the bottom of the column and marked for insertion after
-              <ref target="#ossa">Ossa</ref>.</witDetail></app>
+            <note target="#othrys">This entry was written at the bottom of the column and marked for insertion after
+              <ref target="#ossa">Ossa</ref>.</note></app>
           </p>
           <p xml:id="oeteus">
             <app>
