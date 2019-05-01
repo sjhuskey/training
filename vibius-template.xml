@@ -88,11 +88,17 @@
           <head>Flumina</head>
 
           <p xml:id="crathys">
-            <app><lem wit="#V"><placeName ref="https://pleiades.stoa.org/places/452315">Crathys</placeName>, confinis
-            <placeName ref="https://pleiades.stoa.org/places/452458">Sybari</placeName>. Capillos
-            <lb break="no"/>facit aurei coloris</lem><note target="#crathys">A note in the margin has this text: <lb/>capillos
-              <lb/>aurei
-              <lb/>colo<lb/>ris.</note></app></p>
+            <app>
+              <lem wit="#V">
+                <placeName ref="https://pleiades.stoa.org/places/452315">Crathys</placeName>, confinis
+                <placeName ref="https://pleiades.stoa.org/places/452458">Sybari</placeName>. Capillos
+                <lb break="no"/>facit aurei coloris</lem>
+              <note target="#crathys">A note in the margin has this text:
+                <lb/>capillos
+                <lb/>aurei
+                <lb/>colo<lb/>ris.</note>
+            </app>
+          </p>
 
           <p xml:id="clitumnus">
             <placeName ref="https://pleiades.stoa.org/places/413091">Clitumnus</placeName>,
@@ -119,7 +125,6 @@
               </note>
             </app>
           </p>
-
 
         </div>
 
@@ -165,23 +170,23 @@
           <p xml:id="ossa">
             <app>
               <lem wit="#V1" xml:id="lem-ossa">Ossa, Thessaliae</lem>
-              <rdg wit="#V">Ossa, Thessaliae, ubi Hercules com<lb/>bustus est.</rdg>
+              <rdg wit="#V">Ossa, Thessaliae, ubi Hercules com<lb break="no"/>bustus est.</rdg>
               <witDetail target="#lem-ossa" wit="#V1">Entries for Oetaus and Othrys, written at the bottom of the column, are to be inserted here, as indicated by an insertion mark made by
                 <ref target="#V1">V1</ref>,</witDetail>
             </app>.</p>
           <p xml:id="othrys">Othrys, Thraciae
-            <note target="#othrys">This entry was written at the bottom of the column and marked for insertion after
-              <ref target="#ossa">Ossa</ref>.</note>
+            <app><note target="#othrys">This entry was written at the bottom of the column and marked for insertion after
+              <ref target="#ossa">Ossa</ref>.</note></app>
           </p>
           <p xml:id="oeteus">
             <app>
-              <lem wit="#V1" xml:id="lem-oeteus">Oeteus, Thes<lb/>saliae, ubi Hercules com<lb/>bustus est</lem>
+              <lem wit="#V1" xml:id="lem-oeteus">Oeteus, Thes<lb break="no"/>saliae, ubi Hercules com<lb break="no"/>bustus est</lem>
               <witDetail wit="#V1" target="#lem-oeteus">
                 <add place="margin">Oetaeus
                   <lb/>ubi her<lb/>cules com<lb/>bustus
                   <lb/>est.</add>
               </witDetail>
-              <rdg wit="#V">Oeteus, Thes<lb/>saliae</rdg>
+              <rdg wit="#V">Oeteus, Thes<lb break="no"/>saliae</rdg>
             </app>.</p>
 
         </div>
