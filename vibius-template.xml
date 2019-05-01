@@ -28,6 +28,11 @@
         <p>Born digital.</p>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Text goes here.</p>
+      </editorialDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <front xml:id="front">
@@ -99,7 +104,8 @@
             enim ab
             <placeName ref="https://pleiades.stoa.org/places/991376">Europa</placeName>
             <app>
-              <lem wit="#VC"><add place="inline">se</add>parat</lem>
+              <lem wit="#VC">
+                <add place="inline">se</add>parat</lem>
               <rdg wit="#V">parat</rdg>
             </app>
           </p>
@@ -138,6 +144,38 @@
         <!-- Beginning of section "Montes" -->
         <div type="textpart" n="6" xml:id="part6">
           <head>Montes</head>
+          <p xml:id="symaethos">
+            <app>
+              <lem source="#Gelsomino">Symaethos</lem>
+              <rdg wit="#V">Sym&amp;hos</rdg>
+              <rdg wit="#V1">
+                <add place="margin">Symethos</add>
+              </rdg>
+            </app>
+          </p>
+
+          <p xml:id="ossa">
+            <app>
+              <lem wit="#V1" xml:id="lem-ossa">Ossa, Thessaliae</lem>
+              <rdg wit="#V">Ossa, Thessaliae, ubi Hercules com<lb/>bustus est.</rdg>
+              <witDetail target="#lem-ossa" wit="#V1">Entries for Oetaus and Othrys, written at the bottom of the column, are to be inserted here, as indicated by an insertion mark made by
+                <ref target="#V1">V1</ref>,</witDetail>
+            </app>.</p>
+          <p xml:id="othrys">Othrys, Thraciae
+            <note target="#othrys">This entry was written at the bottom of the column and marked for insertion after
+              <ref target="#ossa">Ossa</ref>.</note>
+          </p>
+          <p xml:id="oeteus">
+            <app>
+              <lem wit="#V1" xml:id="lem-oeteus">Oeteus, Thes<lb/>saliae, ubi Hercules com<lb/>bustus est</lem>
+              <witDetail wit="#V1" target="#lem-oeteus">
+                <add place="margin">Oetaeus
+                  <lb/>ubi her<lb/>cules com<lb/>bustus
+                  <lb/>est.</add>
+              </witDetail>
+              <rdg wit="#V">Oeteus, Thes<lb/>saliae</rdg>
+            </app>.</p>
+
         </div>
         <!-- End of section "Montes" -->
 
