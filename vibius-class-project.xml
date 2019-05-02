@@ -102,9 +102,11 @@
             <placeName ref="https://pleiades.stoa.org/places/501629">Strymon</placeName>,
             <placeName ref="https://pleiades.stoa.org/errata/991371">Thraciae</placeName>; plurimo
             <lb break="no"/>gelu strictus.
-            <app><note target="#strymon1">
-              <foreign xml:lang="lat">Sequana gallie</foreign>
-              written in margin by a later hand.</note></app>
+            <app>
+              <note target="#strymon1">
+                <foreign xml:lang="lat">Sequana gallie</foreign>
+                written in margin by a later hand.</note>
+            </app>
           </p>
           <!-- This entry begins on 191r and continues onto 191v. -->
           <!-- Page break between 191r and 191v -->
@@ -115,14 +117,18 @@
             <lb break="no"/>mare decurrens, usque ad oram
             <lb break="no"/>
             <placeName ref="https://en.wikipedia.org/wiki/Locride">Locridis</placeName>.
-            <app><note target="#sperchios">
-              <foreign xml:lang="lat">cum</foreign>
-              crossed out before
-              <foreign xml:lang="lat">mare</foreign>."
-            </note></app>
-            <app><note>
-              <foreign xml:lang="lat">Insula fac Lutetiam Parisiorum circumfluit</foreign>
-              written in margin, along with a notabilia.</note></app>
+            <app>
+              <note target="#sperchios">
+                <foreign xml:lang="lat">cum</foreign>
+                crossed out before
+                <foreign xml:lang="lat">mare</foreign>."
+              </note>
+            </app>
+            <app>
+              <note>
+                <foreign xml:lang="lat">Insula fac Lutetiam Parisiorum circumfluit</foreign>
+                written in margin, along with a notabilia.</note>
+            </app>
           </p>
           <!-- Note in margin is not very legible; I tried my best -->
           <p resp="#anderson" xml:id="silarus">
@@ -155,10 +161,12 @@
               </rdg>
             </app>
             dicta, quod apium ibi plurimum nascitur.
-            <app><note target="#selinus">
-              <foreign xml:lang="lat">Selinus civitas</foreign>
-              written in margin.
-            </note></app>
+            <app>
+              <note target="#selinus">
+                <foreign xml:lang="lat">Selinus civitas</foreign>
+                written in margin.
+              </note>
+            </app>
           </p>
           <!-- I believe that the Messalians, a group who moved into Asia Minor in the 4th century, are the ones mentioned here. -->
           <p resp="#anderson" xml:id="sagaris">
@@ -166,10 +174,12 @@
             <placeName ref="https://pleiades.stoa.org/places/550827">Phrygiae</placeName>; ad castellum
             <lb break="no"/>
             <placeName ref="https://topostext.org/place/355241LBer">Berecynthium</placeName>.
-            <app><note target="#sagaris">
-              <foreign xml:lang="lat">bere cynthium</foreign>
-              corrected to
-              <foreign xml:lang="lat">berecynthium</foreign>.</note></app>
+            <app>
+              <note target="#sagaris">
+                <foreign xml:lang="lat">bere cynthium</foreign>
+                corrected to
+                <foreign xml:lang="lat">berecynthium</foreign>.</note>
+            </app>
           </p>
           <!-- Could not find entry for "Berecynthium;"" linked ToposText page with mentions of the mountain on Crete. -->
           <p resp="#anderson" xml:id="sebethos">
@@ -186,7 +196,9 @@
             <placeName ref="https://pleiades.stoa.org/places/413163/hadria">Hadriae</placeName>, per
             <placeName ref="https://pleiades.stoa.org/places/432742">Campaniam</placeName>
             decurrens.
-            <app><note target="#sarnus">Notabilia in margin.</note></app>
+            <app>
+              <note target="#sarnus">Notabilia in margin.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="symaethos">
             <app>
@@ -197,17 +209,21 @@
             </app>
             <placeName ref="https://pleiades.stoa.org/places/981549/sicilia/">Siciliae</placeName>, vicinus
             <placeName ref="https://pleiades.stoa.org/places/462408">Palicis</placeName>.
-            <app><note target="#symaethos">
-              <foreign xml:lang="lat">Symethos</foreign>
-              written in margin.</note></app>
+            <app>
+              <note target="#symaethos">
+                <foreign xml:lang="lat">Symethos</foreign>
+                written in margin.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="siler">
             <placeName ref="https://pleiades.stoa.org/places/442795">Siler</placeName>, in
             <placeName ref="https://pleiades.stoa.org/places/442639">Lucania</placeName>, oppido
             <placeName ref="https://pleiades.stoa.org/places/442457">Alburno</placeName>.
-            <app><note target="#siler">
-              <foreign xml:lang="lat">Siler</foreign>
-              written in margin.</note></app>
+            <app>
+              <note target="#siler">
+                <foreign xml:lang="lat">Siler</foreign>
+                written in margin.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="sinocoris">
             <app>
@@ -225,21 +241,28 @@
           <p resp="#anderson" xml:id="saron">
             <placeName>Saron</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/413163/hadria">Hadriae</placeName>.
-            <app><note target="#saron">
-              <foreign xml:lang="lat">Saron</foreign> written in margin.
-            </note></app>
+            <app>
+              <note target="#saron">
+                <foreign xml:lang="lat">Saron</foreign>
+                written in margin.
+              </note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="tigris">
             <placeName ref="https://pleiades.stoa.org/places/912964">Tigris</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/952097">Parthiae</placeName>, qui sub terra
             <lb break="no"/>meas,
             <placeName ref="https://pleiades.stoa.org/places/39290">Rubro mari</placeName>
-             miscetur.
-            <app><note target="#tigris">
-              <foreign xml:lang="lat">meas</foreign>
-              corrected to
-              <foreign xml:lang="lat">means</foreign>.</note></app>
-            <app><note target="#tigris">Notabilia in margin.</note></app>
+            miscetur.
+            <app>
+              <note target="#tigris">
+                <foreign xml:lang="lat">meas</foreign>
+                corrected to
+                <foreign xml:lang="lat">means</foreign>.</note>
+            </app>
+            <app>
+              <note target="#tigris">Notabilia in margin.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="tauromenius">
             <app>
@@ -264,26 +287,29 @@
               </rdg>
             </app>
             dicitur.
-            <app><note target="#taurominius">
-              <foreign xml:lang="lat">Oppidum Taurominium</foreign>
-              written in margin.</note></app>
-            <app><note target="#taurominius">
-              <foreign xml:lang="lat">Eusebonchora</foreign>
-              written in margin.</note></app>
-            <app><note target="#taurominius">Notabilia in margin.</note></app>
-            <!-- Richard Bentley's Dissertations Upon the Epistles of Phalaris,
-            Themistocles, Socrates, Euripides and Upon the Fables of Aesop argues
-            that Εὐσεβῶν χώρα is a region within Taurominium, so I have linked the
-            reading to Taurominium. -->
+            <app>
+              <note target="#taurominius">
+                <foreign xml:lang="lat">Oppidum Taurominium</foreign>
+                written in margin.</note>
+            </app>
+            <app>
+              <note target="#taurominius">
+                <foreign xml:lang="lat">Eusebonchora</foreign>
+                written in margin.</note>
+            </app>
+            <app>
+              <note target="#taurominius">Notabilia in margin.</note>
+            </app>
+            <!-- Richard Bentley's Dissertations Upon the Epistles of Phalaris, Themistocles, Socrates, Euripides and Upon the Fables of Aesop argues that Εὐσεβῶν χώρα is a region within Taurominium, so I have linked the reading to Taurominium. -->
           </p>
           <p resp="#anderson" xml:id="turia">
             <placeName ref="https://pleiades.stoa.org/places/266076">Turia</placeName>
             <placeName ref="https://pleiades.stoa.org/places/1027">Hispanis</placeName>; quod
             <placeName ref="https://pleiades.stoa.org/places/266090">Valentiam</placeName>
-            parvo intervallo
-            praeter fluit.
-            <app><note target="#turia">This entry appears to have been added above the entry
-              "Tanager" by a later hand. Includes some kind of notabilia.</note></app>
+            parvo intervallo praeter fluit.
+            <app>
+              <note target="#turia">This entry appears to have been added above the entry "Tanager" by a later hand. Includes some kind of notabilia.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="tanager">
             <placeName ref="https://pleiades.stoa.org/places/442809">Tanager</placeName>;
@@ -299,10 +325,11 @@
             decur<lb break="no"/>rit, quondam
             <placeName ref="https://pleiades.stoa.org/places/413122">Tuscos</placeName>
             dividens.
-            <app><note target="#thybris">Notabilia in margin.</note></app>
+            <app>
+              <note target="#thybris">Notabilia in margin.</note>
+            </app>
           </p>
-          <!-- The entry seems to say that "Thybris," "Tiberis," and "Albula" are
-          the same river; however, I have added a link to the "Albula river" on Pleiades. -->
+          <!-- The entry seems to say that "Thybris," "Tiberis," and "Albula" are the same river; however, I have added a link to the "Albula river" on Pleiades. -->
           <!-- The link for "Tuscos" is for the region of Tuscia/Etruria. -->
           <p resp="#anderson" xml:id="tanais">
             <placeName ref="https://pleiades.stoa.org/places/825398">Tanais</placeName>,
@@ -340,7 +367,7 @@
               <lem wit="#VC">Albo</lem>
               <rdg wit="#V">
                 <placeName ref="https://pleiades.stoa.org/places/462087">Alabon</placeName>
-                </rdg>
+              </rdg>
             </app>
             <app>
               <lem wit="#VC">Magarensium</lem>
@@ -360,7 +387,9 @@
             <placeName ref="https://pleiades.stoa.org/places/570406">Laconices</placeName>, ubi filios suos
             <lb break="no"/>moris habent, durare frigore
             <lb break="no"/>aquae.
-            <app><note target="#taygeta">Notabilia in margin.</note></app>
+            <app>
+              <note target="#taygeta">Notabilia in margin.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="titaressos">
             <placeName ref="https://pleiades.stoa.org/places/541151">Titaressos</placeName>,
@@ -377,20 +406,24 @@
               <lem wit="#VC">et</lem>
               <rdg wit="#VC">sed</rdg>
             </app>
-             super eum funditur. Quem
-       <!-- page break between 191v and 192 r -->
+            super eum funditur. Quem
+            <!-- page break between 191v and 192 r -->
             <lb break="no"/>
             <placeName ref="https://en.wiktionary.org/wiki/stygian">Stygia</placeName>
             palude crescere, quidam
             <lb break="no"/>adfirmant.
-            <app><note target="#titaressos">Notabilia in margin.</note></app>
-            <app><note target="titaressos">
-              <foreign xml:lang="lat">Adfirmant</foreign>
-              corrected to
-              <foreign xml:lang="lat">affirmant</foreign>
-              by a later hand, but Gelsomino retains
-              <foreign xml:lang="lat">adfirmant</foreign>.
-            </note></app>
+            <app>
+              <note target="#titaressos">Notabilia in margin.</note>
+            </app>
+            <app>
+              <note target="titaressos">
+                <foreign xml:lang="lat">Adfirmant</foreign>
+                corrected to
+                <foreign xml:lang="lat">affirmant</foreign>
+                by a later hand, but Gelsomino retains
+                <foreign xml:lang="lat">adfirmant</foreign>.
+              </note>
+            </app>
           </p>
           <!-- Linked Wiktionary entry for "Stygian."-->
           <p resp="#anderson" xml:id="vulturnus">
@@ -398,27 +431,28 @@
             <placeName ref="https://pleiades.stoa.org/places/432742">Campaniae</placeName>. A quo oppidum iuxta
             <placeName ref="https://pleiades.stoa.org/places/432815/puteoli/">Puteolos</placeName>
             <placeName ref="https://pleiades.stoa.org/places/432828">Vultur<lb break="no"/>num</placeName>.
-              <app><note target="vulturnus">Notabilia in margin.</note></app>
+            <app>
+              <note target="vulturnus">Notabilia in margin.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="virbius">
             <placeName>Virbius</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/570406">Laconices</placeName>, ubi
             <persName ref="https://en.wikipedia.org/wiki/Hippolytus_(son_of_Theseus)">Hippolitum</persName>
-            <lb break="no"/><persName ref="https://en.wikipedia.org/wiki/Asclepius">Aesculapius</persName>
+            <lb break="no"/>
+            <persName ref="https://en.wikipedia.org/wiki/Asclepius">Aesculapius</persName>
             arte medicina reddi<lb break="no"/>dit vitae unde et Virbius dictus.
-            <app><note target="#virbius">Notabilia in margin.</note></app>
+            <app>
+              <note target="#virbius">Notabilia in margin.</note>
+            </app>
           </p>
-          <!-- The name "Virbius," according to Wikipedia,
-            is also one given to Hippolytus after his resurrection by Asclepius,
-            after which he reigns in Latium as the forest god.   -->
+          <!-- The name "Virbius," according to Wikipedia, is also one given to Hippolytus after his resurrection by Asclepius, after which he reigns in Latium as the forest god. -->
           <p resp="#anderson" xml:id="ufens">
             <placeName ref="https://pleiades.stoa.org/places/702604147">Ufens</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/433143">Tarracinae</placeName>
             proximus.
           </p>
-          <!-- Linked to entry for "tribus Oufentina" whose name is derived for the
-          river Ufens. There is an entry for this river in Brill, but I did not link
-          it because it's not open source. -->
+          <!-- Linked to entry for "tribus Oufentina" whose name is derived for the river Ufens. There is an entry for this river in Brill, but I did not link it because it's not open source. -->
           <p resp="#anderson" xml:id="varus">
             <placeName ref="https://pleiades.stoa.org/places/157942">Varus</placeName>, Hic nunc
             <placeName ref="https://pleiades.stoa.org/places/992075">Galliam</placeName>
@@ -427,19 +461,23 @@
             <lb break="no"/>dividit,
             <app>
               <lem wit="#VC">ante</lem>
-              <rdg wit="#V"> antea</rdg>
+              <rdg wit="#V">
+                antea</rdg>
             </app>
             <placeName ref="https://pleiades.stoa.org/places/393484">Rubicon</placeName>.
-            <app><note target="#varus">
-              <foreign xml:lang="lat">Varus, qui Galliam ab Italia dividit</foreign>
-              written in margin.</note></app>
+            <app>
+              <note target="#varus">
+                <foreign xml:lang="lat">Varus, qui Galliam ab Italia dividit</foreign>
+                written in margin.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="ululeus">
             <app>
               <lem wit="#VC">Ululens Dyrrachii</lem>
               <rdg wit="#VC">
-            <placeName ref="https://pleiades.stoa.org/places/484018">Ululeus Dyrrachii</placeName>
-          </rdg></app>
+                <placeName ref="https://pleiades.stoa.org/places/484018">Ululeus Dyrrachii</placeName>
+              </rdg>
+            </app>
             unde aqua
             <lb break="no"/>his dusta.
           </p>
@@ -454,8 +492,7 @@
             <placeName ref="https://pleiades.stoa.org/places/638965">Lyciae</placeName>
             unde et civitas.
           </p>
-          <!-- For both "Xanthus" entries I have linked the town of Sidyma northwest of
-          the mouth of the river. -->
+          <!-- For both "Xanthus" entries I have linked the town of Sidyma northwest of the mouth of the river. -->
           <p resp="#anderson" xml:id="expliciti">
             Expliciti amnes; per litteras in ordinem digesti; feliciter.
           </p>
@@ -476,33 +513,40 @@
           <p resp="#anderson" xml:id="acidalia">
             <placeName ref="https://en.wikipedia.org/wiki/Venus">Acidalia</placeName>; in
             <placeName ref="https://pleiades.stoa.org/places/540987">Orchomeno</placeName>.
-            <app><note target="#acidalia">
-              <foreign xml:lang="lat">Aci dalia</foreign>
-              is corrected to
-              <foreign xml:lang="lat">Acidalia</foreign>.</note></app>
+            <app>
+              <note target="#acidalia">
+                <foreign xml:lang="lat">Aci dalia</foreign>
+                is corrected to
+                <foreign xml:lang="lat">Acidalia</foreign>.</note>
+            </app>
           </p>
-          <!-- In the "Epithets" section of the Wikipedia article there is a reference
-          to the "Fountain of Acidalia." -->
+          <!-- In the "Epithets" section of the Wikipedia article there is a reference to the "Fountain of Acidalia." -->
           <p resp="#anderson" xml:id="clitumnus">
             <placeName ref="https://pleiades.stoa.org/places/413091">Clitumnus</placeName>;
             <placeName ref="https://pleiades.stoa.org/places/413200">Mevaniae</placeName>.
-            <app><note target="#clitumnus">
-              <foreign xml:lang="lat">Cli tumnus</foreign>
-              is corrected to
-              <foreign xml:lang="lat">Clitumnus</foreign>
-              by another hand.</note></app>
+            <app>
+              <note target="#clitumnus">
+                <foreign xml:lang="lat">Cli tumnus</foreign>
+                is corrected to
+                <foreign xml:lang="lat">Clitumnus</foreign>
+                by another hand.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="clanius">
             <placeName ref="https://pleiades.stoa.org/places/432786">Clanius</placeName>;
             <app>
               <lem wit="#VC">Acerre</lem>
-              <rdg wit="#V"><placeName ref="https://pleiades.stoa.org/places/432621">Accerae</placeName></rdg>
+              <rdg wit="#V">
+                <placeName ref="https://pleiades.stoa.org/places/432621">Accerae</placeName>
+              </rdg>
             </app>
             , in
             <placeName ref="https://pleiades.stoa.org/places/432742">Campania</placeName>.
             <lb break="no"/>qui cum creverit; pestem terrae
             <lb break="no"/>meditatur.
-            <app><note target="#clanius">Notabilia in margin.</note></app>
+            <app>
+              <note target="#clanius">Notabilia in margin.</note>
+            </app>
           </p>
           <p resp="#anderson" xml:id="castalius">
             <placeName ref="https://pleiades.stoa.org/places/203037083">Castalius</placeName>;
@@ -512,7 +556,10 @@
             <placeName>Clitor</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/570102">Arcadiae</placeName>. Qui potus, vinum
             <lb break="no"/>in odium adducit.
-            <app><note target="#clitor"><foreign xml:lang="lat">Fons qui vinum in odiorum facit potest.</foreign>written in margin.</note></app>
+            <app>
+              <note target="#clitor">
+                <foreign xml:lang="lat">Fons qui vinum in odiorum facit potest.</foreign>written in margin.</note>
+            </app>
           </p>
           <!-- Clitor a mythological place -->
           <p resp="#anderson" xml:id="cameranum">
@@ -523,25 +570,28 @@
           <p resp="#anderson" xml:id="dirceus">
             <app>
               <lem>Dirceus</lem>
-              <rdg><placeName>Dircaeus</placeName></rdg></app>,
+              <rdg>
+                <placeName>Dircaeus</placeName>
+              </rdg>
+            </app>,
             <placeName ref="https://pleiades.stoa.org/places/540689">Boeotiae</placeName>.
           </p>
           <!-- Dirceus a mythological place -->
           <p resp="#anderson" xml:id="essus">
             <sic>Essus,
-            <placeName ref="https://pleiades.stoa.org/places/39407">Phodo</placeName>.</sic>
+              <placeName ref="https://pleiades.stoa.org/places/39407">Phodo</placeName>.</sic>
           </p>
           <!-- Essus a mythological place -->
-          <!-- Gelsomino does not recognize "Phodo" as a proper noun, but I have Linked
-          a possible place match. -->
+          <!-- Gelsomino does not recognize "Phodo" as a proper noun, but I have Linked a possible place match. -->
           <p resp="#anderson" xml:id="gargaphie">
             <app>
-              <lem wit="#VC">Garga <placeName ref="https://pleiades.stoa.org/places/540775">Euboeae</placeName></lem>
+              <lem wit="#VC">Garga
+                <placeName ref="https://pleiades.stoa.org/places/540775">Euboeae</placeName>
+              </lem>
               <rdg wit="#V">
-                <placeName ref="https://pleiades.stoa.org/places/543709">Gargaphie</placeName>,
-              Boeotiae</rdg>
+                <placeName ref="https://pleiades.stoa.org/places/543709">Gargaphie</placeName>, Boeotiae</rdg>
             </app>
-          , ubi
+            , ubi
             <persName ref="https://en.wikipedia.org/wiki/Actaeon">Acteon</persName>
             <lb break="no"/>laceratur.
           </p>
@@ -555,20 +605,24 @@
             <placeName ref="https://pleiades.stoa.org/places/465922">Inessa</placeName>,
             <app>
               <lem wit="#VC">Rhodo</lem>
-              <rdg wit="#V"><placeName ref="https://pleiades.stoa.org/places/590031">Rhodi</placeName></rdg>
+              <rdg wit="#V">
+                <placeName ref="https://pleiades.stoa.org/places/590031">Rhodi</placeName>
+              </rdg>
             </app>
             . A quo
-            <placeName ref="https://pleiades.stoa.org/places/462492">Siciliae </placeName>
+            <placeName ref="https://pleiades.stoa.org/places/462492">Siciliae
+            </placeName>
             <lb break="no"/>civitas,
             <placeName ref="https://pleiades.stoa.org/places/465922">Inossa</placeName>.
           </p>
           <p resp="#anderson" xml:id="libethris">
             <app>
-            <lem wit="#VC">Libetris</lem>
-            <rdg wit="#V">
-              <placeName ref="https://pleiades.stoa.org/places/543768">Libethris</placeName></rdg>
-          </app>
-          ,
+              <lem wit="#VC">Libetris</lem>
+              <rdg wit="#V">
+                <placeName ref="https://pleiades.stoa.org/places/543768">Libethris</placeName>
+              </rdg>
+            </app>
+            ,
             <placeName ref="https://pleiades.stoa.org/places/540689">Boeotiae</placeName>.
           </p>
           <!-- "Inossa" is "Inessa" in Gelsomino -->
@@ -576,18 +630,22 @@
             <persName ref="https://en.wikipedia.org/wiki/Liriope_(nymph)">Liriope</persName>, ubi
             <persName ref="https://en.wikipedia.org/wiki/Narcissus_(mythology)">Narcissus</persName>
             se conspexit.
-            <app><note target="#liriope">Notabilia in margin.</note></app>
+            <app>
+              <note target="#liriope">Notabilia in margin.</note>
+            </app>
           </p>
           <!-- Liriope a mythological place -->
           <p resp="#anderson" xml:id="menais">
             <placeName ref="https://pleiades.stoa.org/places/462312">Menais</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/462279">Leontinorum</placeName>; per quem
             <lb break="no"/>timent iurare cives eius loci.
-            <app><note target="#menais">
-              <foreign xml:lang="lat">Religio fontis</foreign>
-              written in margin.</note></app>
+            <app>
+              <note target="#menais">
+                <foreign xml:lang="lat">Religio fontis</foreign>
+                written in margin.</note>
+            </app>
           </p>
-<milestone unit="page" n="192v"/>
+          <milestone unit="page" n="192v"/>
           <p resp="#little" xml:id="spandaeus">
             <placeName>Spandaeus</placeName>: in insula
             <placeName>Coa</placeName>
@@ -821,7 +879,7 @@
             <placeName ref="https://pleiades.stoa.org/places/1001912">Phrygie</placeName>.</p>
           <p resp="#giddens" xml:id="baebius">
             <placeName ref="https://pleiades.stoa.org/places/422848">Baebius</placeName>,
-            <placeName>https://pleiades.stoa.org/places/991350>Campaniae</placeName>; flumen emit
+            <placeName ref="https://pleiades.stoa.org/places/991350">Campaniae</placeName>; flumen emit
             <lb/>tens.</p>
           <p resp="#giddens" xml:id="boreas">
             <placeName ref="https://pleiades.stoa.org/places/483967">Boreas</placeName>,
@@ -951,12 +1009,14 @@
             <lb/>tis cacumen.</p>
           <p resp="#giddens" xml:id="gaurus">
             <placeName ref="https://pleiades.stoa.org/places/432861">Gaurus</placeName>;
-            <placeName>https://pleiades.stoa.org/places/991350>Campaniae</placeName>.</p>
+            <placeName ref="https://pleiades.stoa.org/places/991350">Campaniae</placeName>.</p>
           <p resp="#giddens" xml:id="helicon">
             <placeName ref="https://pleiades.stoa.org/places/540808">Helicon</placeName>, Aoniae
             <placeName ref="https://pleiades.stoa.org/places/540689">Boeotiae</placeName>que
-            <lb/>Musis sacer.</p>
-          <note target="#helicon">Aonia may have been a district of, or an early name for, Boeotia</note>
+            <lb/>Musis sacer.<app>
+              <note target="#helicon">Aonia may have been a district of, or an early name for, Boeotia</note>
+            </app>
+          </p>
           <p resp="#giddens" xml:id="hyperborei">
             <placeName ref="https://pleiades.stoa.org/places/59962">Hyperborei</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/992078">Thraciae</placeName>; ultra plagam
@@ -1085,8 +1145,10 @@
             </app>.</p>
           <p resp="#giddens" xml:id="oeniphile">
             <placeName>Oeniphile</placeName>,
-            <placeName ref="https://pleiades.stoa.org/places/481818">Dyrrachii</placeName>.</p>
-          <note target="#oeniphile">'Oeniphile' does not exist</note>
+            <placeName ref="https://pleiades.stoa.org/places/481818">Dyrrachii</placeName>.<app>
+              <note target="#oeniphile">'Oeniphile' does not exist</note>
+            </app>
+          </p>
           <p resp="#giddens" xml:id="parnasos">
             <placeName ref="https://pleiades.stoa.org/places/59983">Parnasos</placeName>Parnasos,
             <placeName ref="https://pleiades.stoa.org/places/541048">Phocidis</placeName>; duobus ver
