@@ -12,18 +12,27 @@
       <editionStmt>
         <edition>First Edition</edition>
         <respStmt>
-          <resp>Initial transcription of 193v-194r from original ms. Also added URIs for place names.<!-- <encodingDesc> <editorialDecl> <p>URLS for Pleiades and other resources have been inserted for places and names.</p> <p>Notes from
-            margins have been indicated in "notes."</p> <correction> <p>Notes have been added to indicate corrections by a later hand.</p> </correction> <normalization> <p>Abbreviations from the manuscript have been spelled out, including those in notes added by
-            later hands. Gelsomino's spelling has been prioritized over that of the manuscript. App tags for the lemma and Gelsomino's reading have been added where Gelsomino's spelling differs. All proper nouns have been capitalized. </p> </normalization>
-            <segmentation> <p>Each entry is contained in a paragraph.</p> </segmentation> <punctuation> <p>Punctuation from the manuscript has been retained; a period at the bottom of a line becomes a comma, a middle period becomes a semicolon, and a top period
-            becomes a period. Periods have been added at the ends of lines without end punctuation.</p> </punctuation> </editorialDecl> </encodingDesc>--></resp>
+          <resp>Transcription of 189v-190r from original ms
+            <!--(not included here)-->. Added some URIs for place names. Extensive use of XML comments.</resp>
+          <persName xml:id="abbey">Charlie Abbey</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Initial transcription of 193v-194r from original ms. Also added URIs for place names.<!-- <encodingDesc> <editorialDecl> <p>URLS for Pleiades and other resources have been inserted for places and names.</p> <p>Notes from margins have been
+            indicated in "notes."</p> <correction> <p>Notes have been added to indicate corrections by a later hand.</p> </correction> <normalization> <p>Abbreviations from the manuscript have been spelled out, including those in notes added by later hands.
+            Gelsomino's spelling has been prioritized over that of the manuscript. App tags for the lemma and Gelsomino's reading have been added where Gelsomino's spelling differs. All proper nouns have been capitalized. </p> </normalization> <segmentation>
+            <p>Each entry is contained in a paragraph.</p> </segmentation> <punctuation> <p>Punctuation from the manuscript has been retained; a period at the bottom of a line becomes a comma, a middle period becomes a semicolon, and a top period becomes a
+            period. Periods have been added at the ends of lines without end punctuation.</p> </punctuation> </editorialDecl> </encodingDesc>--></resp>
           <persName xml:id="anderson">Elizabeth Anderson</persName>
         </respStmt>
         <respStmt>
-          <resp>Initial transcription of 193v-194r from original ms. Also added URIs for place names.<!--I privileged the spelling of the manuscript as opposed to Gelsomino's spellings; all abbreviated words are fully written out. All
-            proper nouns are capitalized. Line breaks are placed in the same locations as in the original manuscript with the exception of place names. Place names link to Pleiades website. Punctuation largely follows the manuscript: a period is indicated by a
-            high dot, a semi-colon by a middle dot, and a comma by a low dot. Notes in margins indicated with: <note></note>. Page numbers indicated with an XML comment. -->.</resp>
+          <resp>Initial transcription of 191v-192r from original ms. Also added URIs for place names.<!--I privileged the spelling of the manuscript as opposed to Gelsomino's spellings; all abbreviated words are fully written out. All proper nouns are
+            capitalized. Line breaks are placed in the same locations as in the original manuscript with the exception of place names. Place names link to Pleiades website. Punctuation largely follows the manuscript: a period is indicated by a high dot, a
+            semi-colon by a middle dot, and a comma by a low dot. Notes in margins indicated with: <note></note>. Page numbers indicated with an XML comment. -->.</resp>
           <persName xml:id="giddens">Margo Giddens</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Initial transcription of 194v-195r from original ms.</resp>
+          <persName xml:id="grant">Spencer Grant</persName>
         </respStmt>
         <respStmt>
           <resp>Initial transcription of 192v-193r from original ms.<!-- Principles of transcription: Entries are marked off with a colon, followed by location data. Some entries have placeholder tags. Marginalia has been omitted.--></resp>
@@ -40,6 +49,10 @@
         <respStmt>
           <resp>Initial transcription of 189v-190r from original ms. Added some URIs for place names. Extensive use of XML comments.</resp>
           <persName xml:id="sims">Elliot Sims</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Initial transcription of 191v-192r. Added URIs for place names.<!-- For this transcription, proper nouns were capitalized. Spelling is as presented in the manuscript, unless noted in a lemma. Marginalia was coded as in as a note, targeted to the relevant entry. Place names were linked to Pleiades.--></resp>
+          <persName xml:id="tisdale">Justin Tisdale</persName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -931,7 +944,7 @@
             <placeName ref="https://pleiades.stoa.org/places/471977">Neapoli</placeName>; in
             <placeName ref="https://pleiades.stoa.org/places/432742">Campania</placeName>.
           </p>
-          <p resp="#anderson" xml:id="sarnus">
+          <p resp="#anderson" xml:id="sarnus1">
             <placeName ref="https://pleiades.stoa.org/places/433102">Sarnus</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/413227">Nuceriae</placeName>; ex
             <placeName ref="https://pleiades.stoa.org/places/229586">Sarone</placeName>
@@ -941,7 +954,7 @@
             <placeName ref="https://pleiades.stoa.org/places/432742">Campaniam</placeName>
             decurrens.
             <app>
-              <note target="#sarnus">Notabilia in margin.</note>
+              <note target="#sarnus1">Notabilia in margin.</note>
             </app>
           </p>
           <p resp="#anderson" xml:id="symaethos">
@@ -1935,12 +1948,111 @@
               </note>
             </app>
           </p>
+          <milestone unit="page" n="194v"/>
+          <p resp="#grant" xml:id="pyreneaus">
+            <placeName ref="https://pleiades.stoa.org/places/246582">Pyreneaus</placeName>, galliam abbispania
+            <lb/>
+            diuidre</p>
+          <p resp="#grant" xml:id="pylartes">Pylartes, dymacchycas.</p>
+          <p resp="#grant" xml:id="petre">Petre, dymacchycas, troae, pompeii
+            <lb break="no"/>
+            magni.</p>
+          <p resp="#grant" xml:id="quirinus">Quirinus, romae unus esepte
+            <lb break="no"/>
+            monabus.</p>
+          <p resp="#grant" xml:id="rhodope">Rhodope,thraciae.</p>
+          <p resp="#grant" xml:id="riphaes">Riphaes
+            <lb break="no"/>
+            Rhamnustum.</p>
+          <p resp="#grant" xml:id="saturnius">Saturnius, romae, quiae capitoli
+            <lb break="no"/>
+            nus idem aetar perus.</p>
+          <p resp="#grant" xml:id="soracitur">Soracitur falescorum.</p>
+          <p resp="#grant" xml:id="sarnus2">Sarnus nuceriae.</p>
+          <p resp="#grant" xml:id="sipylur">Sipylur, lydiae.</p>
+          <p resp="#grant" xml:id="stesiarus">Stesiarus, molossiae.</p>
+          <p resp="#grant" xml:id="tarperus">Tarperus, romae unus espetem
+            <lb break="no"/>
+            monabus.</p>
+          <p resp="#grant" xml:id="Tenarus">
+            Tenarus, Laconices.</p>
+          <p resp="#grant" xml:id="tmolus">Tmolus, lydiae, uino infignis,</p>
+          <p resp="#grant" xml:id="taburnus">Taburnus, samntau, oliui, fer.</p>
+          <p resp="#grant" xml:id="targaea">Targaea, Laconices.</p>
+          <p resp="#grant" xml:id="tetrica">
+            Tetrica, fabinorum.</p>
+          <p resp="#grant" xml:id="temtrus">Temtrus, macedoniae, pycimus
+            <lb break="no"/>
+            apolloniae, inconspettu, Dymaachij.</p>
+          <p resp="#grant" xml:id="Uclinus">
+            Uclinus, romae, unus eseptem
+            <lb break="no"/>
+            morrabus.</p>
+          <p resp="#grant" xml:id="uerulus">Uerulus, apuliae.</p>
         </div>
         <!-- End of section "Montes" -->
 
         <!-- Beginning of section "Gentes" -->
         <div type="textpart" n="7" xml:id="part7">
           <head>Gentes</head>
+          <p resp="#grant" xml:id="agathyrsi">Agathyrsi, scythiae, patus, euro
+            <lb break="no"/>
+            pae.</p>
+          <p resp="#grant" xml:id="acarnanii">Arcananii, epirotae, europae.</p>
+          <p resp="#grant" xml:id="apulitalica">Apulitalica, partus, ariae.</p>
+          <p resp="#grant" xml:id="aethiopes">Aethiopes, indiasiae.</p>
+          <p resp="#grant" xml:id="aegyptui">Aegyptui, parrus, ariae.</p>
+          <p resp="#grant" xml:id="barcaei">Barcaei, mauri, libyae.</p>
+          <p resp="#grant" xml:id="calybes">Calybes, inponto, europae.</p>
+          <p resp="#grant" xml:id="cicones">Cicones, thracciae.</p>
+          <p resp="#grant" xml:id="dryopes">Dryopes, focenses, europae.</p>
+          <p resp="#grant" xml:id="dachi">Dachi, scythae, europae.</p>
+          <p resp="#grant" xml:id="getuliasri">Getuliasri, libyae.</p>
+          <p resp="#grant" xml:id="germani">Germani, europae.</p>
+          <milestone unit="page" n="195r"/>
+          <p resp="#grant" xml:id="gerae">Gerae, Thraces, europae.</p>
+          <p resp="#grant" xml:id="geloni">Geloni, thraceae, piticorporis
+            <lb break="no"/>
+            parte.</p>
+          <p resp="#grant" xml:id="garaemantes">Garaemantes, maurilibyace.</p>
+          <p resp="#grant" xml:id="indi">Indi, aracbes ariae.</p>
+          <p resp="#grant" xml:id="ityracen">Ityracen, fyriusu, sagittae periti.</p>
+          <p resp="#grant" xml:id="kares">Kares, Asiae.</p>
+          <p resp="#grant" xml:id="lydi">Lydi, partus asiae. In Aegypto.</p>
+          <p resp="#grant" xml:id="lapithae">Lapithae, thessali europae.</p>
+          <p resp="#grant" xml:id="lycii">Lycii, asiae.</p>
+          <p resp="#grant" xml:id="leleges">Leleges, carii, europae.</p>
+          <p resp="#grant" xml:id="lucani">Lucani, itali, europae.</p>
+          <p resp="#grant" xml:id="massylii">Massylii, afri.</p>
+          <p resp="#grant" xml:id="mauri">Mauri, Libyae proximi.</p>
+          <p resp="#grant" xml:id="magempuri">Magempuri,libyae.</p>
+          <p resp="#grant" xml:id="marsi">Marsi, italia, europae.</p>
+          <p resp="#grant" xml:id="medi">Medi, thraeciae, pyximi.</p>
+          <p resp="#grant" xml:id="morini">Morini, oceano iunda, europae.</p>
+          <p resp="#grant" xml:id="numide">Numide, Mauri, libyae.</p>
+          <p resp="#grant" xml:id="osa">Osa, samnites italia, europae.</p>
+          <p resp="#grant" xml:id="parrhasii">Parrhasii, arcades, europae.</p>
+          <p resp="#grant" xml:id="pannoni">Pannoni, iuyyria, europae</p>
+          <p resp="#grant" xml:id="gangaridae">Gangaridae, indiae, Hispania Europae.</p>
+          <p resp="#grant" xml:id="philyridae">Philyridae, europae inuenetia.</p>
+          <p resp="#grant" xml:id="rutuli">Rutuli, idem dauni, italia, Europae.</p>
+          <p resp="#grant" xml:id="seres">seres, asiae, fuboriente.</p>
+          <p resp="#grant" xml:id="sabaen">Sabaen, anacbes.</p>
+          <p resp="#grant" xml:id="sauro">Sauro matae, europae.</p>
+          <p resp="#grant" xml:id="teutones">Teutones, galli, Europae.</p>
+          <p resp="#grant" xml:id="tusci">Tusci, ITalia, Europae.</p>
+          <p resp="#grant" xml:id="thraeces">Thraces, thessali, Europae.</p>
+          <p resp="#grant" xml:id="uulsa">Uulsa, italia, Europae.</p>
+          <p resp="#grant" xml:id="xYZ">X, Y, Z.</p>
+          <p resp="#grant" xml:id="explicit">Feliciter uibiiseque
+            <lb break="no"/>
+            Siris De Fluminibus
+            <lb break="no"/>
+            Fontibus, Nemorib'
+            <lb break="no"/>
+            Lacubus, Paludibus, Mon
+            <lb break="no"/>
+            Tib, Gentib' Perlitii Explicis"></p>
         </div>
         <!-- End of section "Gentes" -->
 
