@@ -12,7 +12,7 @@
       <editionStmt>
         <edition>First Edition</edition>
         <respStmt>
-          <resp>Initial transcription of 193v-194r from original ms. Also added references to Pleiades.org for place names.<!-- <encodingDesc> <editorialDecl> <p>URLS for Pleiades and other resources have been inserted for places and names.</p> <p>Notes from
+          <resp>Initial transcription of 193v-194r from original ms. Also added URIs for place names.<!-- <encodingDesc> <editorialDecl> <p>URLS for Pleiades and other resources have been inserted for places and names.</p> <p>Notes from
             margins have been indicated in "notes."</p> <correction> <p>Notes have been added to indicate corrections by a later hand.</p> </correction> <normalization> <p>Abbreviations from the manuscript have been spelled out, including those in notes added by
             later hands. Gelsomino's spelling has been prioritized over that of the manuscript. App tags for the lemma and Gelsomino's reading have been added where Gelsomino's spelling differs. All proper nouns have been capitalized. </p> </normalization>
             <segmentation> <p>Each entry is contained in a paragraph.</p> </segmentation> <punctuation> <p>Punctuation from the manuscript has been retained; a period at the bottom of a line becomes a comma, a middle period becomes a semicolon, and a top period
@@ -20,7 +20,7 @@
           <persName xml:id="anderson">Elizabeth Anderson</persName>
         </respStmt>
         <respStmt>
-          <resp>Initial transcription of 193v-194r from original ms. Also added references to Pleiades.org for place names.<!--I privileged the spelling of the manuscript as opposed to Gelsomino's spellings; all abbreviated words are fully written out. All
+          <resp>Initial transcription of 193v-194r from original ms. Also added URIs for place names.<!--I privileged the spelling of the manuscript as opposed to Gelsomino's spellings; all abbreviated words are fully written out. All
             proper nouns are capitalized. Line breaks are placed in the same locations as in the original manuscript with the exception of place names. Place names link to Pleiades website. Punctuation largely follows the manuscript: a period is indicated by a
             high dot, a semi-colon by a middle dot, and a comma by a low dot. Notes in margins indicated with: <note></note>. Page numbers indicated with an XML comment. -->.</resp>
           <persName xml:id="giddens">Margo Giddens</persName>
@@ -30,7 +30,7 @@
           <persName xml:id="little">Saxon Little</persName>
         </respStmt>
         <respStmt>
-          <resp>Initial transcription of 190v-191r from original ms. Also added some references.
+          <resp>Initial transcription of 190v-191r from original ms. Also added some URIs for place names.
             <!-- I have capitalized all proper nouns, added spacing where needed, and standardized punctuation. Manuscript spelling was given preference but in instances where the pleiades entry was listed under Gelsomino's spelling, the difference has been
             indicated in the comments for that entry. Pleiades references have been entered when available - in absense of a pleiades reference, I have linked a Wikipedia page. The entries with corrections or emendations have been entered with preference to the
             lemma text and those corrections have been indicated in the notes. -->
@@ -38,7 +38,7 @@
           <persName xml:id="rucker">Rachel Rucker</persName>
         </respStmt>
         <respStmt>
-          <resp>Initial transcription of 189v-190r from original ms. Added some references. Extensive use of XML comments.</resp>
+          <resp>Initial transcription of 189v-190r from original ms. Added some URIs for place names. Extensive use of XML comments.</resp>
           <persName xml:id="sims">Elliot Sims</persName>
         </respStmt>
       </editionStmt>
