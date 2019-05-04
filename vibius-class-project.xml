@@ -29,6 +29,10 @@
           <persName xml:id="anderson">Elizabeth Anderson</persName>
         </respStmt>
         <respStmt>
+          <resp>Initial transcription and encoding of 190v-191r.</resp>
+          <persName></persName>
+        </respStmt>
+        <respStmt>
           <resp>Initial transcription of 192v-193r. Also added URIs for place names.<!-- I tried to make my transcription of the manuscript as diplomatic as possible. I focused on representing the data contained in this particular witness rather than producing
             an edited version of the text. In general, I kept normalization of the text to a minimum. I did capitalize all proper nouns, some of which were not capitalized in tne manuscript. I also changed consonant u to v. I did not change consonant i to j. I
             also did not make an attempt to normalize vowels, e.g. by turning e into ae. I expanded abbreviations, e.g. replacing a line over a vowel with m at the end of the word. --></resp>
@@ -43,6 +47,11 @@
         <respStmt>
           <resp>Initial transcription of 194v-195r from original ms.</resp>
           <persName xml:id="grant">Spencer Grant</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Initial transcription and encoding of 194v-195r. Also added URIs for place names.<!-- While transcribing this text, I attempted to maintain the literal body of the text. I attempted to maintain the spelling like the manuscript. I normalized the
+            punctuation. I capitalized proper nouns.I maintained the structure of the page and column breaks. --></resp>
+          <persName xml:id="kozloski">Laura Kozloski</persName>
         </respStmt>
         <respStmt>
           <resp>Initial transcription of 192v-193r from original ms.<!-- Principles of transcription: Entries are marked off with a colon, followed by location data. Some entries have placeholder tags. Marginalia has been omitted.--></resp>
@@ -1160,13 +1169,13 @@
             <placeName ref="https://pleiades.stoa.org/places/413360">Umbriae</placeName>.
           </p>
           <!-- Linked to "Thermos River" in Sicily - could likely be the wrong river since it is not in Umbria. Could not find "Thermus" river. -->
-          <p resp="#anderson" xml:id="taygeta">
+          <p resp="#anderson" xml:id="taygeta1">
             <placeName ref="https://pleiades.stoa.org/places/570706">Taygeta</placeName>,
             <placeName ref="https://pleiades.stoa.org/places/570406">Laconices</placeName>, ubi filios suos
             <lb break="no"/>moris habent, durare frigore
             <lb break="no"/>aquae.
             <app>
-              <note target="#taygeta">Notabilia in margin.</note>
+              <note target="#taygeta1">Notabilia in margin.</note>
             </app>
           </p>
           <p resp="#anderson" xml:id="titaressos">
@@ -1533,7 +1542,7 @@
           <p resp="#felkner" xml:id="triviae">
             <placeName>Triviae</placeName>, lacus
             <placeName ref="https://pleiades.stoa.org/places/422844">Ariciae</placeName>.</p>
-          <p resp="#felkner" xml:id="velinus">
+          <p resp="#felkner" xml:id="velinus1">
             <placeName ref="https://pleiades.stoa.org/places/413371">Velinus</placeName>, inter
             <placeName ref="https://pleiades.stoa.org/places/413220">Nar</placeName>
             et
@@ -2115,110 +2124,268 @@
             </app>
           </p>
           <milestone unit="page" n="194v"/>
-          <p resp="#grant" xml:id="pyreneaus">
-            <placeName ref="https://pleiades.stoa.org/places/246582">Pyreneaus</placeName>, galliam abbispania
-            <lb/>
-            diuidre</p>
-          <p resp="#grant" xml:id="pylartes">Pylartes, dymacchycas.</p>
-          <p resp="#grant" xml:id="petre">Petre, dymacchycas, troae, pompeii
-            <lb break="no"/>
-            magni.</p>
-          <p resp="#grant" xml:id="quirinus">Quirinus, romae unus esepte
-            <lb break="no"/>
-            monabus.</p>
-          <p resp="#grant" xml:id="rhodope">Rhodope,thraciae.</p>
-          <p resp="#grant" xml:id="riphaes">Riphaes
-            <lb break="no"/>
-            Rhamnustum.</p>
-          <p resp="#grant" xml:id="saturnius">Saturnius, romae, quiae capitoli
-            <lb break="no"/>
-            nus idem aetar perus.</p>
-          <p resp="#grant" xml:id="soracitur">Soracitur falescorum.</p>
-          <p resp="#grant" xml:id="sarnus2">Sarnus nuceriae.</p>
-          <p resp="#grant" xml:id="sipylur">Sipylur, lydiae.</p>
-          <p resp="#grant" xml:id="stesiarus">Stesiarus, molossiae.</p>
-          <p resp="#grant" xml:id="tarperus">Tarperus, romae unus espetem
-            <lb break="no"/>
-            monabus.</p>
-          <p resp="#grant" xml:id="Tenarus">
-            Tenarus, Laconices.</p>
-          <p resp="#grant" xml:id="tmolus">Tmolus, lydiae, uino infignis,</p>
-          <p resp="#grant" xml:id="taburnus">Taburnus, samntau, oliui, fer.</p>
-          <p resp="#grant" xml:id="targaea">Targaea, Laconices.</p>
-          <p resp="#grant" xml:id="tetrica">
-            Tetrica, fabinorum.</p>
-          <p resp="#grant" xml:id="temtrus">Temtrus, macedoniae, pycimus
-            <lb break="no"/>
-            apolloniae, inconspettu, Dymaachij.</p>
-          <p resp="#grant" xml:id="Uclinus">
-            Uclinus, romae, unus eseptem
-            <lb break="no"/>
-            morrabus.</p>
-          <p resp="#grant" xml:id="uerulus">Uerulus, apuliae.</p>
+          <p resp="#kozloski" xml:id="pyrenaeus">
+            <placeName ref="https://pleiades.stoa.org/places/246582">Pyrenaeus</placeName>,
+            <placeName>Galliam</placeName>
+            ab
+            <placeName>Hispania</placeName>,
+            <lb break="no"/>dividit.</p>
+          <p resp="#kozloski" xml:id="pylartes">
+            <placeName>Pylartes</placeName>, Dyrrocchii.</p>
+          <p resp="#kozloski" xml:id="petre">
+            <placeName ref="https://pleiades.stoa.org/places/543835">Petre</placeName>, Dyrrocchii castra pompei
+            <lb break="no"/>magni.</p>
+          <p resp="#kozloski" xml:id="quirinus">
+            <placeName ref="https://pleiades.stoa.org/places/125119394">Quirinus</placeName>,
+            <placeName>Romae</placeName>, unus e septem
+            <lb break="no"/>montibus.</p>
+          <p resp="#kozloski" xml:id="rhodope">
+            <placeName ref="https://pleiades.stoa.org/places/501592">Rhodope</placeName>,
+            <placeName>Thraciae</placeName>.</p>
+          <p resp="#kozloski" xml:id="riphaei">
+            <placeName>Riphaei</placeName>, Riphaei, Scythiae.</p>
+          <p resp="#kozloski" xml:id="rhamnustum">
+            <placeName>Rhamnustum</placeName>,
+            <placeName>Scordae</placeName>.</p>
+          <p resp="#kozloski" xml:id="saturnius">
+            <placeName>Saturnius</placeName>,
+            <placeName>Romae</placeName>, qui et
+            <placeName>Capitoli</placeName>
+            <lb break="no"/>nus idem, et
+            <placeName>Tarpuius</placeName>.</p>
+          <p resp="#kozloski" xml:id="soratis">
+            <placeName>Soratis</placeName>, faliscorum
+            <app>
+              <lem wit="#V3">soractes</lem>
+              <rdg wit="#V">soratis</rdg>
+            </app>
+          </p>
+          <p resp="#kozloski" xml:id="sarnus">
+            <placeName ref="https://pleiades.stoa.org/places/433103">Sarnus</placeName>,
+            <placeName>Nuceriae</placeName>.</p>
+          <p resp="#kozloski" xml:id="sipylus">
+            <placeName ref="https://pleiades.stoa.org/places/550884">Sipylus</placeName>,
+            <placeName>Lydiae</placeName>.</p>
+          <p resp="#kozloski" xml:id="stesiarus">
+            <placeName ref="https://pleiades.stoa.org/places/531124">Stesiarus</placeName>, molossiae.</p>
+          <p resp="#kozloski" xml:id="tarpeius">
+            <placeName ref="https://pleiades.stoa.org/places/347036492">Tarpeius</placeName>,
+            <placeName>Romae</placeName>, unus e septem
+            <lb break="no"/>montibus.</p>
+          <p resp="#kozloski" xml:id="tenarsus">
+            <placeName>Tenarsus</placeName>, Laconices.</p>
+          <p resp="#kozloski" xml:id="tmolus">
+            <placeName ref="https://pleiades.stoa.org/places/550937">Tmolus</placeName>,
+            <placeName>Lydiae</placeName>, vino insignis.</p>
+          <milestone unit="column"/>
+          <p resp="#kozloski" xml:id="taburnus">
+            <placeName ref="https://pleiades.stoa.org/places/433141">Taburnus</placeName>,
+            <placeName>Samnitiu</placeName>, olivifer.</p>
+          <p resp="#kozloski" xml:id="taygeta2">
+            <placeName ref="https://pleiades.stoa.org/places/570706">Taygeta</placeName>, Laconices.</p>
+          <p resp="#kozloski" xml:id="tetrica">
+            <placeName ref="https://pleiades.stoa.org/places/413336">Tetrica</placeName>, Sabinorum</p>
+          <p resp="#kozloski" xml:id="temtrus">
+            <placeName ref="https://pleiades.stoa.org/places/531124">Temtrus</placeName>,
+            <placeName>Macedoniae</placeName>, proximus Apolloniae, in conspettu Dyrrocchii.</p>
+          <p resp="#kozloski" xml:id="velinus2">
+            <placeName ref="https://pleiades.stoa.org/places/157710058">Velinus</placeName>,
+            <placeName>Romae</placeName>, unus e septem
+            <lb break="no"/>montibus.</p>
+          <p resp="#kozloski" xml:id="vesulus">
+            <placeName ref="https://pleiades.stoa.org/places/167966">Vesulus</placeName>,
+            <placeName>Apuliae</placeName>.</p>
         </div>
         <!-- End of section "Montes" -->
 
         <!-- Beginning of section "Gentes" -->
         <div type="textpart" n="7" xml:id="part7">
           <head>Gentes</head>
-          <p resp="#grant" xml:id="agathyrsi">Agathyrsi, scythiae, patus, euro
-            <lb break="no"/>
-            pae.</p>
-          <p resp="#grant" xml:id="acarnanii">Arcananii, epirotae, europae.</p>
-          <p resp="#grant" xml:id="apulitalica">Apulitalica, partus, ariae.</p>
-          <p resp="#grant" xml:id="aethiopes">Aethiopes, indiasiae.</p>
-          <p resp="#grant" xml:id="aegyptui">Aegyptui, parrus, ariae.</p>
-          <p resp="#grant" xml:id="barcaei">Barcaei, mauri, libyae.</p>
-          <p resp="#grant" xml:id="calybes">Calybes, inponto, europae.</p>
-          <p resp="#grant" xml:id="cicones">Cicones, thracciae.</p>
-          <p resp="#grant" xml:id="dryopes">Dryopes, focenses, europae.</p>
-          <p resp="#grant" xml:id="dachi">Dachi, scythae, europae.</p>
-          <p resp="#grant" xml:id="getuliasri">Getuliasri, libyae.</p>
-          <p resp="#grant" xml:id="germani">Germani, europae.</p>
+          <p resp="#kozloski" xml:id="agathyrsi">
+            <orgName ref="https://en.wikipedia.org/wiki/Agathyrsi">Agathysi</orgName>,
+            <placeName>Scythiae</placeName>partis
+            <placeName>Europae</placeName>.
+            <app>
+              <lem wit="#V3">scythiae</lem>
+              <rdg wit="#V">scythae</rdg>
+            </app>
+          </p>
+          <p resp="#kozloski" xml:id="acarnanii">
+            <orgName ref="https://en.wikipedia.org/wiki/Acarnania">Acarnanii</orgName>,
+            <placeName>Epirotae</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="apuli">
+            <orgName ref="https://en.wikipedia.org/wiki/Apulia">Apuli</orgName>,
+            <placeName>Italici</placeName>, partis
+            <placeName>Asiae</placeName>.</p>
+          <p resp="#kozloski" xml:id="aethiopes">
+            <orgName ref="https://en.wikipedia.org/wiki/Aethiopia">Aethiopes</orgName>,
+            <placeName>Indi</placeName>,
+            <placeName>Asiae</placeName>.</p>
+          <p resp="#kozloski" xml:id="aegyptii">
+            <orgName ref="https://pleiades.stoa.org/places/981503">Aegyptii</orgName>, partis
+            <placeName>Asiae</placeName>.</p>
+          <p resp="#kozloski" xml:id="barcaei">
+            <orgName>Barcaei</orgName>, Mauri,
+            <placeName>Libyae</placeName>.</p>
+          <p resp="#kozloski" xml:id="calybes">
+            <orgName>Calybes</orgName>, in ponto
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="cicones">
+            <orgName ref="https://en.wikipedia.org/wiki/Cicones">Cicones</orgName>,
+            <placeName>Thraciae</placeName>.</p>
+          <p resp="#kozloski" xml:id="dryopes">
+            <orgName ref="https://en.wikipedia.org/wiki/Dryopes">Dryopes</orgName>, focenses
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="dachi">
+            <orgName>Dachi</orgName>,
+            <placeName>Scythae</placeName>,
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="getulia">
+            <orgName>Gentulia</orgName>,
+            <placeName>Afri</placeName>,
+            <placeName>Libyae</placeName>.</p>
+          <p resp="#kozloski" xml:id="germani">
+            <orgName ref="https://pleiades.stoa.org/places/20468">Germani</orgName>,
+            <placeName>Europe</placeName>.</p>
           <milestone unit="page" n="195r"/>
-          <p resp="#grant" xml:id="gerae">Gerae, Thraces, europae.</p>
-          <p resp="#grant" xml:id="geloni">Geloni, thraceae, piticorporis
-            <lb break="no"/>
-            parte.</p>
-          <p resp="#grant" xml:id="garaemantes">Garaemantes, maurilibyace.</p>
-          <p resp="#grant" xml:id="indi">Indi, aracbes ariae.</p>
-          <p resp="#grant" xml:id="ityracen">Ityracen, fyriusu, sagittae periti.</p>
-          <p resp="#grant" xml:id="kares">Kares, Asiae.</p>
-          <p resp="#grant" xml:id="lydi">Lydi, partus asiae. In Aegypto.</p>
-          <p resp="#grant" xml:id="lapithae">Lapithae, thessali europae.</p>
-          <p resp="#grant" xml:id="lycii">Lycii, asiae.</p>
-          <p resp="#grant" xml:id="leleges">Leleges, carii, europae.</p>
-          <p resp="#grant" xml:id="lucani">Lucani, itali, europae.</p>
-          <p resp="#grant" xml:id="massylii">Massylii, afri.</p>
-          <p resp="#grant" xml:id="mauri">Mauri, Libyae proximi.</p>
-          <p resp="#grant" xml:id="magempuri">Magempuri,libyae.</p>
-          <p resp="#grant" xml:id="marsi">Marsi, italia, europae.</p>
-          <p resp="#grant" xml:id="medi">Medi, thraeciae, pyximi.</p>
-          <p resp="#grant" xml:id="morini">Morini, oceano iunda, europae.</p>
-          <p resp="#grant" xml:id="numide">Numide, Mauri, libyae.</p>
-          <p resp="#grant" xml:id="osa">Osa, samnites italia, europae.</p>
-          <p resp="#grant" xml:id="parrhasii">Parrhasii, arcades, europae.</p>
-          <p resp="#grant" xml:id="pannoni">Pannoni, iuyyria, europae</p>
-          <p resp="#grant" xml:id="gangaridae">Gangaridae, indiae, Hispania Europae.</p>
-          <p resp="#grant" xml:id="philyridae">Philyridae, europae inuenetia.</p>
-          <p resp="#grant" xml:id="rutuli">Rutuli, idem dauni, italia, Europae.</p>
-          <p resp="#grant" xml:id="seres">seres, asiae, fuboriente.</p>
-          <p resp="#grant" xml:id="sabaen">Sabaen, anacbes.</p>
-          <p resp="#grant" xml:id="sauro">Sauro matae, europae.</p>
-          <p resp="#grant" xml:id="teutones">Teutones, galli, Europae.</p>
-          <p resp="#grant" xml:id="tusci">Tusci, ITalia, Europae.</p>
-          <p resp="#grant" xml:id="thraeces">Thraces, thessali, Europae.</p>
-          <p resp="#grant" xml:id="uulsa">Uulsa, italia, Europae.</p>
-          <p resp="#grant" xml:id="xYZ">X, Y, Z.</p>
-          <p resp="#grant" xml:id="explicit">Feliciter uibiiseque
-            <lb break="no"/>
-            Siris De Fluminibus
-            <lb break="no"/>
-            Fontibus, Nemorib'
-            <lb break="no"/>
-            Lacubus, Paludibus, Mon
-            <lb break="no"/>
-            Tib, Gentib' Perlitii Explicis"></p>
+          <p resp="#kozloski" xml:id="getae">
+            <orgName ref="https://pleiades.stoa.org/places/216817">Getae</orgName>,
+            <placeName>Thraeces</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="geloni">
+            <orgName ref="https://en.wikipedia.org/wiki/Gelonians">Geloni</orgName>,
+            <placeName>Thraeciae</placeName>
+            picti corporis
+            <lb break="no"/>parte.</p>
+          <p resp="#kozloski" xml:id="garamantes">
+            <orgName ref="https://pleiades.stoa.org/places/354116">Garamantes</orgName>, Maurii,
+            <placeName>Libyae</placeName>.</p>
+          <p resp="#kozloski" xml:id="indi">
+            <orgName ref="https://pleiades.stoa.org/places/50004">Indi</orgName>, Arabes
+            <placeName>Asiae</placeName>.</p>
+          <p resp="#kozloski" xml:id="ityaei">
+            <orgName>Ityaei</orgName>,
+            <placeName>Syri</placeName>, usu sagittae perta.</p>
+          <p resp="#kozloski" xml:id="kaves">
+            <orgName>Kaves</orgName>,
+            <placeName>Asiae</placeName>.</p>
+          <p resp="#kozloski" xml:id="lydi">
+            <orgName ref="https://pleiades.stoa.org/places/991385">Lydi</orgName>, partus
+            <placeName>Asiae</placeName>, in
+            <placeName>Aegypto</placeName>.</p>
+          <p resp="#kozloski" xml:id="lapithae">
+            <orgName>Lapithae</orgName>,
+            <placeName>Thessali</placeName>,
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="lycii">
+            <orgName ref="https://pleiades.stoa.org/places/638965">Lycrii</orgName>,
+            <placeName>Asiae</placeName>.</p>
+          <p resp="#kozloski" xml:id="leleges">
+            <orgName ref="https://pleiades.stoa.org/places/550692">Leleges</orgName>, Carri,
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="lucani">
+            <orgName ref="https://pleiades.stoa.org/places/452371">Lucani</orgName>,
+            <placeName>Itali</placeName>,
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="mauri">
+            <orgName ref="https://en.wikipedia.org/wiki/Mauri_people">Mauri</orgName>,
+            <placeName>Libyae</placeName>
+            proximi.</p>
+          <p resp="#kozloski" xml:id="magem">
+            <orgName>Magem</orgName>, puri,<placeName>Libyae</placeName>.</p>
+          <p resp="#kozloski" xml:id="marsi">
+            <orgName ref="https://pleiades.stoa.org/places/413191">Marsi</orgName>,
+            <placeName>Italia</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="medi">
+            <orgName ref="https://en.wikipedia.org/wiki/Maedi">Medi</orgName>,
+            <placeName>Thraciae</placeName>
+            proximi.</p>
+          <p resp="#kozloski" xml:id="morini">
+            <orgName ref="https://pleiades.stoa.org/places/109177">Morini</orgName>, oceano iuncti,
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="numidi">
+            <orgName ref="https://pleiades.stoa.org/places/305119">Numidi</orgName>,
+            <placeName>Mauri</placeName>,
+            <placeName>Libyae</placeName>.
+            <app>
+              <lem wit="#V2">numidae</lem>
+              <rdg wit="#V">numidi</rdg>
+            </app>
+          </p>
+          <p resp="#kozloski" xml:id="osci">
+            <orgName ref="https://en.wikipedia.org/wiki/Osci">Osci</orgName>,
+            <placeName>Samnites</placeName>
+            <placeName>Italici</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="parrhasii">
+            <orgName ref="https://pleiades.stoa.org/places/570564">Parrhasii</orgName>,
+            <placeName>Arcades</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="pannoni">
+            <orgName ref="https://pleiades.stoa.org/places/992076">Pannoni</orgName>,
+            <placeName>Illyrici</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="gangaridae">
+            <orgName>Gangaridae</orgName>,
+            <placeName>Indi</placeName>.
+            <note target="gangaridae">A later hand has added this entry in margin.</note>
+          </p>
+          <p resp="#kozloski" xml:id="hispania">
+            <orgName>Hispania</orgName>,
+            <placeName>Europae</placeName>.
+            <app>
+              <note target="hispania">A later hand has added this entry in the margin.</note>
+            </app>
+          </p>
+          <milestone unit="column"/>
+          <p resp="#kozloski" xml:id="philyridae">
+            <orgName>Philyridae</orgName>,
+            <placeName>Europae</placeName>
+            in
+            <placeName>Venetia</placeName>.</p>
+          <p resp="#kozloski" xml:id="rutuli">
+            <orgName ref="https://en.wikipedia.org/wiki/Rutuli">Rutuli</orgName>, idem
+            <placeName>Dauni</placeName>
+            <placeName>Italici</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="seres">
+            <orgName ref="https://en.wikipedia.org/wiki/Serica">Seres</orgName>,
+            <placeName>Asiae</placeName>
+            sub oriente.</p>
+          <p resp="#kozloski" xml:id="sabaei">
+            <orgName ref="https://pleiades.stoa.org/places/354146">Sabaei</orgName>, Arabes.</p>
+          <p resp="#kozloski" xml:id="sauromata">
+            <orgName ref="https://en.wikipedia.org/wiki/Sarmatians">Sauromata</orgName>,
+            <orgName>Europae</orgName>.</p>
+          <p resp="#kozloski" xml:id="teutones">
+            <orgName ref="https://pleiades.stoa.org/places/118991">Teutones</orgName>,
+            <placeName>Galli</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="tusci">
+            <orgName ref="https://pleiades.stoa.org/places/413356">Tusci</orgName>,
+            <placeName>Italici</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="thraces">
+            <orgName ref="https://pleiades.stoa.org/places/501638">Thraces</orgName>,
+            <placeName>Thessali</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="thessali">
+            <orgName ref="https://pleiades.stoa.org/places/1332">Thessali</orgName>,
+            <placeName>Macedones</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p resp="#kozloski" xml:id="vulsci">
+            <orgName ref="https://pleiades.stoa.org/places/433208">Vulsci</orgName>,
+            <placeName>Italici</placeName>
+            <placeName>Europae</placeName>.</p>
+          <p>
+            Feliciter Vibii Seque
+            <lb break="no"/>Stris De Fluminibus,
+            <lb break="no"/>Fontibus, Nemorib'
+            <lb break="no"/>Lacubus, Paludibus Mon
+            <lb break="no"/>tib', Gentib', Per Litt Explicts</p>
+
         </div>
         <!-- End of section "Gentes" -->
 
