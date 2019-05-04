@@ -54,8 +54,17 @@
           <persName xml:id="kozloski">Laura Kozloski</persName>
         </respStmt>
         <respStmt>
+          <resp>Initial transcription and encoding of 193v-194r.<!-- Proper nouns are capitalized. All locations are referenced to pleiades, wherever possible. Editorial hands have also been noted. --></resp>
+          <persName xml:id="lange">Madeleine Lange</persName>
+        </respStmt>
+        <respStmt>
           <resp>Initial transcription of 192v-193r from original ms.<!-- Principles of transcription: Entries are marked off with a colon, followed by location data. Some entries have placeholder tags. Marginalia has been omitted.--></resp>
           <persName xml:id="little">Saxon Little</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Initial transcription and encoding of 191v-192r from the original ms.
+          </resp>
+          <persName xml:id="oaxaca">Ana Oaxaca</persName>
         </respStmt>
         <respStmt>
           <resp>Initial transcription of 190v-191r from original ms. Also added some URIs for place names.
@@ -68,6 +77,10 @@
         <respStmt>
           <resp>Initial transcription of 189v-190r from original ms. Added some URIs for place names. Extensive use of XML comments.</resp>
           <persName xml:id="sims">Elliot Sims</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Initial transcription and encoding of 190v-191r. Added some URIs for place names.<!-- For this trancription I capitilized the proper nouns. Along with this I also made some of the corrections to the spelling where I felt it was necessary and made note of what those changes were. --></resp>
+          <persName xml:id="staggs">Taylor Staggs</persName>
         </respStmt>
         <respStmt>
           <resp>Initial transcription of 191v-192r. Added URIs for place names.<!-- For this transcription, proper nouns were capitalized. Spelling is as presented in the manuscript, unless noted in a lemma. Marginalia was coded as in as a note, targeted to the relevant entry. Place names were linked to Pleiades.--></resp>
